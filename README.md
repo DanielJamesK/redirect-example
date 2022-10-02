@@ -118,5 +118,7 @@ Now that we are setting our state in sessionStorage, we can now check if it has 
 
 ![Getting dontRedirect state in session storage](./images/getSessionStorage.jpg)
 
+---
+
 ## **Finished**
 That's it, happy redirecting!
