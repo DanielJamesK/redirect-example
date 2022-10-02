@@ -3,6 +3,13 @@
 ## **Getting started**
 Start by creating a file in your snippets directory and name it something appropriate. This file is going to house our Javascript code, so the filename should end in .js.liquid
 
+We then want to include this file in our theme.liquid. Remember to wrap this include in script tags.
+``` javascript
+<script>
+  {% include client-redirects.js.liquid %}
+</script>
+```
+
 ### Example
 snippets/client-redirects.js.liquid
 
