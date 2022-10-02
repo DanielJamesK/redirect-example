@@ -87,11 +87,11 @@ If the currentUrl does not include the clientStoreUrl, that is an indication tha
 Firstly we need to check if there is a pathname, or a search query in the URL. It's important to take this step, because if we need to redirect the client, we want to redirect them to their desired page, not just the home page.
 
 ### Example
-**Storing the pathname**
+####Storing the pathname
 In the example we are using a **Ternary Operator**(shorthand for an if/else statement) to check if the pathname is '/', if it is we just want to store an empty string, else we want to store the pathname.
 ![Url pathname](./images/urlPath.jpg)
 
-**Storing the search query**
+####Storing the search query
 ![Url search](./images/urlSearch.jpg)
 
 ---
