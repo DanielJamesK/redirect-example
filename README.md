@@ -6,7 +6,7 @@ Start by creating a file in your snippets directory and name it something approp
 We then want to include this file in our theme.liquid. Remember to wrap this include in script tags. Try to include this script quite eaarly, as we want it to run ASAP.
 ``` javascript
 <script>
-  {% include 'client-redirects.js %}
+  {% include 'client-redirects.js' %}
 </script>
 ```
 
