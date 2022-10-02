@@ -114,8 +114,9 @@ To set our state in the sessionStorage, we need to provide a name that we can re
 
 ![Setting dontRedirect state in session storage](./images/setSessionStorage.jpg)
 
-Now that we are setting our state in sessionStorage, we can now check if it has been set at the start of our function. If dontRedirect is true, we know that we have already confirmed that the user is on the correct store, and we can return out of our function.
+Now that we are setting our state in sessionStorage, we can now check if it has been set at the start of our function. If dontRedirect is set, we know that we have already confirmed that the user is on the correct store, and we can return out of our function.
 
 ![Getting dontRedirect state in session storage](./images/getSessionStorage.jpg)
 
-
+## **Finished**
+That's it, happy redirecting!
