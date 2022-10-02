@@ -84,7 +84,7 @@ Next we can check if the currentUrl includes our clientStoreUrl. If it does it m
 ## **Constructing our redirect URL**
 If the currentUrl does not include the clientStoreUrl, that is an indication that our client is on the wrong store and it's time to redirect them.
 
-Firstly I want the check if there is a pathname, or a search query in the URL. It's important to take this step, because if we need to redirect the client, we want to redirect them to their desired page, not just the home page.
+Firstly we need to check if there is a pathname, or a search query in the URL. It's important to take this step, because if we need to redirect the client, we want to redirect them to their desired page, not just the home page.
 
 ### Example
 **Storing the pathname**
